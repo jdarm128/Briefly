@@ -4,7 +4,7 @@ A private briefing station for your desk or nightstand. It shows the weather, yo
 
 It is also a reliable alarm clock. Knock twice on the case to snooze. The clock and alarm keep working when the laptop is closed.
 
-<!-- TODO: add a photo or short GIF of the device here. A real photo is the single highest value addition to this README. -->
+![alt text](<WhatsApp Image 2026-08-13 at 3.43.43 PM.jpeg>)
 
 ## Why
 
