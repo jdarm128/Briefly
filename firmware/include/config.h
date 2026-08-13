@@ -10,7 +10,7 @@
 #define PIN_I2C_SCL      22
 
 // Peripherals
-#define PIN_BUZZER       25   // piezo buzzer (+) ; (-) to GND
+#define PIN_BUZZER       15   // piezo buzzer (+) ; (-) to GND
 #define PIN_LED          26   // status LED through ~220 ohm resistor
 #define PIN_IMU_INT      32   // LSM6DSO INT1 -> knock detection
 #define PIN_TFT_BL        4   // T-Display backlight (matches build flags)
