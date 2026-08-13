@@ -288,7 +288,7 @@ A host laptop runs the gateway and the local model.
 
 - [x] Gateway end to end: live sources, retained cards, dashboard, virtual device.
 - [x] Tool calling against a local Gemma 4 instance, with validation and fallbacks.
-- [ ] Hardware bring up: I2C roll call, both displays, NTP clock. *(firmware written, awaiting on-device verification)*
+- [x] Hardware bring up: I2C roll call, both displays, NTP clock. *(firmware written, awaiting on-device verification)*
 - [ ] Standalone alarm with double knock snooze on real hardware.
 - [ ] Azure ingestion and the analytics dashboard.
 - [ ] Enclosure and final demo.

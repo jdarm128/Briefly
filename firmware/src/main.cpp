@@ -312,8 +312,15 @@ static void manageMqtt() {
 }
 
 // ------------------------------------------------------------------ inputs --
-struct Btn { uint8_t pin; bool wasDown = false; uint32_t downAt = 0; bool longFired = false; };
-Btn btnA{PIN_BTN_A}, btnB{PIN_BTN_B};
+struct Btn { 
+  uint8_t pin; 
+  bool wasDown = false; 
+  uint32_t downAt = 0; 
+  bool longFired = false; 
+  Btn(uint8_t p) { pin = p; }
+};
+Btn btnA(PIN_BTN_A);
+Btn btnB(PIN_BTN_B);
 
 static void onShortPress(char which) {
   wake();
